@@ -1,27 +1,87 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Product</title>
+    <title>Consultanță Financiară - Expert Finance</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
-        <div class="logo">MyProduct</div>
+        <div class="logo">
+            <img src="logo.jpg" alt="Expert Finance">
+        </div>
         <nav>
             <ul>
-                <li><a href="#home">Acasă</a></li>
-                <li><a href="#features">Caracteristici</a></li>
+                <li><a href="#despre">Despre</a></li>
+                <li><a href="#servicii">Servicii</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#preturi">Prețuri</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home">
-        <h1>Bine ai venit la MyProduct!</h1>
-        <p>Produsul nostru îți face viața mai ușoară.</p>
-        <button>Aflați mai multe</button>
+    <section id="despre" class="intro">
+        <h1>Bun venit la Expert Finance</h1>
+        <p>Oferim consultanță financiară profesională pentru asigurări, credite, leasing și investiții.</p>
     </section>
+
+    <section id="servicii">
+        <h2>Serviciile noastre</h2>
+        <ul>
+            <li>Asigurări de viață și sănătate</li>
+            <li>RCA și CASCO</li>
+            <li>Credite ipotecare și de nevoi personale</li>
+            <li>Leasing auto și echipamente</li>
+            <li>Pensii private și investiții</li>
+        </ul>
+    </section>
+
+    <section id="galerie">
+        <h2>Galerie</h2>
+        <div class="media-item">
+            <img src="asigurari.jpg" alt="Asigurări">
+        </div>
+        <div class="media-item">
+            <video controls width="500">
+                <source src="video test.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    
+
+    <section id="preturi">
+        <h2>Planuri tarifare</h2>
+        <p>Consultanță gratuită pentru primul apel. Prețuri flexibile pentru planurile avansate.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contactează-ne</h2>
+        <form>
+            <label for="nume">Nume:</label>
+            <input type="text" id="nume" name="nume" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mesaj">Mesaj:</label>
+            <textarea id="mesaj" name="mesaj" required></textarea>
+
+            <button type="submit">Trimite</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Expert Finance. Toate drepturile rezervate.</p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> contact@expertfinance.ro</p>
+            <p><strong>Telefon:</strong> +40 777777777</p>
+            <p><strong>Adresă:</strong> Strada IT-stilor nr. 1, București, România</p>
+        </div>
+    </footer>
+
 </body>
 </html>
+
